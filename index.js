@@ -6,12 +6,10 @@ app.use(bodyParser.json());
 
 const PORT = 3000;
 
-// Replace with your details
 const USER_ID = "john_doe_17091999";
 const EMAIL = "john@xyz.com";
 const ROLL_NUMBER = "ABCD123";
 
-// Helper: alternating caps for string
 function alternatingCaps(str) {
   let result = "";
   let upper = true;
@@ -22,7 +20,6 @@ function alternatingCaps(str) {
   return result;
 }
 
-// POST /bfhl route
 app.post("/bfhl", (req, res) => {
   try {
     const data = req.body.data;
