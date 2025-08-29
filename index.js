@@ -6,9 +6,9 @@ app.use(bodyParser.json());
 
 const PORT = 3000;
 
-const USER_ID = "john_doe_17091999";
-const EMAIL = "john@xyz.com";
-const ROLL_NUMBER = "ABCD123";
+const USER_ID = "Sharan_5230";
+const EMAIL = "sharan@gmail.com";
+const ROLL_NUMBER = "22BCE5230";
 
 function alternatingCaps(str) {
   let result = "";
